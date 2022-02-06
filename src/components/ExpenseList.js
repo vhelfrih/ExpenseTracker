@@ -1,5 +1,5 @@
 import { styled } from '@mui/material/styles';
-import { Grid, Paper, Typography } from "@mui/material";
+import { Container, Grid, Paper, Typography } from "@mui/material";
 import React from "react";
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -12,7 +12,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const ExpenseList = () => {
   return (
-    <div>
+    <Container>
       <Typography variant="h4" sx={{
         mt: 3,
         textAlign: "center"
@@ -46,7 +46,7 @@ const ExpenseList = () => {
           </Typography>
         </Grid>
       </Grid>
-    </div>
+      </Container>
   );
 };
 
