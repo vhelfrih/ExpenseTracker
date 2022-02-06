@@ -27,58 +27,59 @@ const Item = styled(Paper)(({ theme }) => ({
 const Categories = () => {
   return (
     <div>
-        <Grid container spacing={1}
+        <Grid container rowSpacing={3}
         sx={{
           alignItems: "center",
           justifyContent: "center",
+          ml: 2,
           mt: 1
         }}>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <RestaurantMenuIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <SubwayIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <MedicalServicesIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <HouseIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <CardGiftcardIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <PersonIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <FamilyRestroomIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <PhoneAndroidIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <DirectionsCarIcon />
             </Item>
           </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={2}>
             <Item>
               <CheckroomIcon />
             </Item>

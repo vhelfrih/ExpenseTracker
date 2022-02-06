@@ -55,7 +55,7 @@ export default function Balance() {
     <Container maxWidth="md" back>
       <TableContainer
         component={Paper}
-        sx={{ bgcolor: "#0096c7", height: "32vh", mt: 2 }}
+        sx={{ bgcolor: "#0096c7", height: "100%", mt: 2 }}
       >
         <Table aria-label="customized table">
           <TableHead>
